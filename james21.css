@@ -1,0 +1,23 @@
+body {
+    background-color:lightcyan;
+}
+img {
+  display: block;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #021a40;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button#flightButton {
+    position: absolute;
+    bottom: 8%;
+    left: 45%;
+    font-weight: bold;
+}
+
