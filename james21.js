@@ -26,6 +26,7 @@ function fillPage(){
     
     //add image
     var image = document.createElement('img');
+    image.id = "mainImg";
     image.setAttribute("src","images/" + place + "/" + place + ".jpg");
     body.appendChild(image);
 
@@ -42,7 +43,7 @@ function fillPage(){
     //add table
     body.appendChild(tbl);
 
-    /add button
+    //add button
     var btn = document.createElement('button');
     btn.id = "flightButton";
     var txt = document.createTextNode("Cheap Flight");
